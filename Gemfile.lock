@@ -60,7 +60,11 @@ GEM
       sass-listen (~> 4.0.0)
     sass-embedded (1.58.0-arm64-darwin)
       google-protobuf (~> 3.21)
+    sass-embedded (1.58.0-x64-mingw-ucrt)
+      google-protobuf (~> 3.21)
     sass-embedded (1.58.0-x86_64-darwin)
+      google-protobuf (~> 3.21)
+    sass-embedded (1.58.0-x86_64-linux-gnu)
       google-protobuf (~> 3.21)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -74,7 +78,9 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x64-mingw-ucrt
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   http_parser
@@ -84,4 +90,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.3.7
+   2.5.23
