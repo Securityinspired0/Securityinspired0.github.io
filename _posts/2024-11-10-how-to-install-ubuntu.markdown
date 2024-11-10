@@ -6,7 +6,7 @@ date:   2024-11-10
 
 <p>A great way to explore Linux without affecting your main operating system is running Ubuntu on VirtualBox. Whether you’re a developer, student or just someone curious about Ubuntu, this guide will show you how to set it up on VirtualBox.</p>
 
-# System Requirements
+### System Requirements
 <p>Before setting up Ubuntu on VirtualBox, ensure your computer meets the following requirements:</p>
 
    * **Processor:** 2 GHz dual-core processor
