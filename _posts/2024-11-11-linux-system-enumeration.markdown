@@ -69,27 +69,27 @@ There are multiple questions to answer and these questions will help us gather i
     <figcaption><b>sudo:</b> Grants administrative privileges, allowing the user to execute commands as the superuser or another user, as defined in the /etc/sudoers file.</figcaption>
 </figure>
 
-* **What groups does your account belong to?** The host is part of a group named "students".
+**What groups does your account belong to?** The host is part of a group named "students".
 
-* **What are your ID (UID) and group ID (GID)?** The UID is 1000 and the GID is 1000 associated with the group named "student".
+**What are your ID (UID) and group ID (GID)?** The UID is 1000 and the GID is 1000 associated with the group named "student".
 
-* **Is your account part of any administrative groups like sudo?** Yes
+**Is your account part of any administrative groups like sudo?** Yes
 
-* **How many groups are on the system?**
+**How many groups are on the system?**
 <img src ="/assets/img/group-count.png" alt="Screenshot showing the output of the group counts command">
 
-* **How many users are on the system?**
+**How many users are on the system?**
 <figure>
     <img src ="/assets/img/passwd.png" alt="Screenshot showing the output of the user counts command">
     <figcaption>Not all entries in /etc/passwd represent human users. Some are system accounts (e.g., root, daemon, nobody) used by various system processes.</figcaption>
 </figure>
 
-* **Which users are currently running processes?**
+**Which users are currently running processes?**
 <figure>
     <img src ="/assets/img/ps-users.png" alt="Screenshot showing the output of the users currently running processes">
 </figure>
 
-* **Does the user have any sudo privileges?** Yes both root and student have sudo privilege 
+**Does the user have any sudo privileges?** Yes both root and student have sudo privilege 
 
 ### <strong>Task 3: Kernel Vulnerability Analysis.</strong>
 A kernel vulnerability is a security flaw in the kernel, the core part of an operating system. The kernel manages system resources like CPU, memory, and device, and it controls how software interact with hardware. Because of this central role, a vulnerability in the kernel can potentially give an attacker extensive control over the system.
