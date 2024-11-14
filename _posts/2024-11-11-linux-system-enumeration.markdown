@@ -129,11 +129,11 @@ With all the necessary preparations in place, we can now run the script that aut
 
 During the vulnerability assessment, both manual inspection and the exploit suggester tool highlighted critical security issues, each requiring timely patches to maintain system integrity.
 
-1. **CVE-2024–6387:** This remote code execution vulnerability in OpenSSH leverages login timers to execute unauthorized commands. Resolution: Updating openssh-server mitigates the risk.
+**CVE-2024–6387:** This remote code execution vulnerability in OpenSSH leverages login timers to execute unauthorized commands. Resolution: Updating openssh-server mitigates the risk.
 
-2. **CVE-2024–24791:** This denial-of-service vulnerability in Go's net/http library arises from improper handling of the 100-continue HTTP response header, causing service disruptions. Resolution: Updating the library version addresses this flaw.
+**CVE-2024–24791:** This denial-of-service vulnerability in Go's net/http library arises from improper handling of the 100-continue HTTP response header, causing service disruptions. Resolution: Updating the library version addresses this flaw.
 
-3. **CVE-2024–34158:** A stack exhaustion vulnerability in Go's Parse function, triggered by excessive nesting in // +build tags, can lead to application crashes. Resolution: Updating the Go environment safeguards against this issue.
+**CVE-2024–34158:** A stack exhaustion vulnerability in Go's Parse function, triggered by excessive nesting in // +build tags, can lead to application crashes. Resolution: Updating the Go environment safeguards against this issue.
 
 The **exploit suggester tool** further identified high-risk vulnerabilities, including DirtyPipe, PwnKit, and Baron Samedit, which enable privilege escalation without requiring elevated permissions. This feature is particularly beneficial for penetration testers and system administrators, offering a swift way to evaluate a system's susceptibility to privilege escalation attacks and highlight areas needing immediate attention.
 
