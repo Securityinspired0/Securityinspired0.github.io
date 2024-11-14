@@ -53,12 +53,12 @@ Use the following commands to gather user information:
 
 <figure>
     <img src ="/assets/img/whoami.png" alt="Screenshot showing the output of the whoami command">
-    <figcaption><b>whoami:</b> Shows the current logged-in user.<figcaption>
+    <figcaption><b>whoami:</b> Shows the current logged-in user</figcaption>
 </figure>
 
 <figure>
     <img src ="/assets/img/groups.png" alt="Screenshot showing the output of the groups command">
-    <figcaption><b>groups:</b> Lists the groups the current user belongs to<figcaption>
+    <figcaption><b>groups:</b> Lists the groups the current user belongs to</figcaption>
 </figure>
 
 There are multiple questions to answer and these questions will help us gather information about the installed host.
@@ -67,7 +67,7 @@ There are multiple questions to answer and these questions will help us gather i
 
 <figure>
     <img src ="/assets/img/groups.png" alt="Screenshot showing the output of the groups command">
-    <figcaption><b>sudo:</b> Grants administrative privileges, allowing the user to execute commands as the superuser or another user, as defined in the /etc/sudoers file.<figcaption>
+    <figcaption><b>sudo:</b> Grants administrative privileges, allowing the user to execute commands as the superuser or another user, as defined in the /etc/sudoers file.</figcaption>
 </figure>
 
 * **What groups does your account belong to?** The host is part of a group named "students".
@@ -82,7 +82,7 @@ There are multiple questions to answer and these questions will help us gather i
 * **How many users are on the system?**
 <figure>
     <img src ="/assets/img/passwd.png" alt="Screenshot showing the output of the user counts command">
-    <figcaption>Not all entries in /etc/passwd represent human users. Some are system accounts (e.g., root, daemon, nobody) used by various system processes.<figcaption>
+    <figcaption>Not all entries in /etc/passwd represent human users. Some are system accounts (e.g., root, daemon, nobody) used by various system processes.</figcaption>
 </figure>
 
 * **Which users are currently running processes?**
@@ -126,6 +126,7 @@ With all the necessary preparations in place, we can now run the script that aut
 
 
 ## Findings: Manual and Exploit Suggester Tool Analysis
+
 During the vulnerability assessment, both manual inspection and the exploit suggester tool highlighted critical security issues, each requiring timely patches to maintain system integrity.
 
 1. **CVE-2024–6387:** This remote code execution vulnerability in OpenSSH leverages login timers to execute unauthorized commands. Resolution: Updating openssh-server mitigates the risk.
