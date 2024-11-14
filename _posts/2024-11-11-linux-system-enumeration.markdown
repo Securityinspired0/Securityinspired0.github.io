@@ -155,7 +155,7 @@ Use the following command to check file permissions:
 
 **Questions:**
 
-1. **What command did you use to display the shadow file? Analyze the output and provide the password has for the student user.**
+**What command did you use to display the shadow file? Analyze the output and provide the password has for the student user.**
 
 <img src="/assets/img/shadoww.png">
 
@@ -177,10 +177,10 @@ The /etc/shadow file stores user account information, specifically the hashed pa
 
 **Account Expiration Date:** The eight field is the absolute date when the account expires, represent in days since the epoch. A black here means there is no expiration date.
 
-2. **How many users are listed in the passwd file?**
+**How many users are listed in the passwd file?**
 
 <img src="/assets/img/wc.png">
 
-3. **Are there any file(s) in the /root directory with weak permissions? Provide a clear explanation.**
+**Are there any file(s) in the /root directory with weak permissions? Provide a clear explanation.**
 
 <img src="/assets/img/root.png">
