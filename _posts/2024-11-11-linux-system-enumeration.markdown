@@ -17,7 +17,7 @@ In this lab you will be introduced to:
 "This lab activity is based on Linux system enumeration and setting monitoring system processes tools as part of the portfolio 1 and you are required to complete all tasks and answer the questions."
 
 **Lab setup:**
-For this lab you'll need the Ubuntu Desktop 22.04 virtual machine. You can follow this link(https://securityinspired.medium.com/how-to-install-ubuntu-on-virtualbox-a-step-by-step-guide-3dc7032d388f) for instructions on installing Ubuntu and this link(https://releases.ubuntu.com/jammy/?_ga=2.157469628.786919307.1729614561-129726061.1707896173) for the 22.04 version specifically.
+For this lab you'll need the Ubuntu Desktop 22.04 virtual machine. You can follow this [link](https://securityinspired.medium.com/how-to-install-ubuntu-on-virtualbox-a-step-by-step-guide-3dc7032d388f) for instructions on installing Ubuntu and this [link](https://releases.ubuntu.com/jammy/?_ga=2.157469628.786919307.1729614561-129726061.1707896173) for the 22.04 version specifically.
 
 ### <strong>Task 1: System Enumeration</strong>
 System enumeration entails collecting critical information about a system, including details like the operating system version, kernel version, architecture, and active services.
@@ -64,7 +64,6 @@ Use the following commands to gather user information:
 There are multiple questions to answer and these questions will help us gather information about the installed host.
 
 * **Do you have an administrative privileges?**
-
 <figure>
     <img src ="/assets/img/groups.png" alt="Screenshot showing the output of the groups command">
     <figcaption><b>sudo:</b> Grants administrative privileges, allowing the user to execute commands as the superuser or another user, as defined in the /etc/sudoers file.</figcaption>
