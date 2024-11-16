@@ -96,7 +96,7 @@ A kernel vulnerability is a security flaw in the kernel, the core part of an ope
 
 **Steps**
 
-### Manual Vulnerability Search</br>
+#### Manual Vulnerability Search<
 
 A manual vulnerability search involves using various online resource to identify known vulnerabilities in a host. Below are the vulnerability I found, along with their sources.
 
