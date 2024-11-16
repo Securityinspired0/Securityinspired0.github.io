@@ -78,10 +78,10 @@ There are multiple questions to answer and these questions will help us gather i
 **How many groups are on the system?**
 <img src ="/assets/img/group-count.png" alt="Screenshot showing the output of the group counts command">
 
-<p style="text-align: center; font-size: 18px; font-weight: bold; margin-top: 50px;">Do you have administrative privileges?</p>
-<figure style="text-align: center; margin-top: 20px;">
-    <img src="/assets/img/passwd.png" alt="Screenshot showing the output of the user counts command">
-    <figcaption>sudo: Grants administrative privileges, allowing the user to execute commands as the superuser or another user, as defined in the /etc/sudoers file.</figcaption>
+**How many users are on the system?**
+<figure>
+    <img src ="/assets/img/passwd.png" alt="Screenshot showing the output of the user counts command">
+    <figcaption>Not all entries in /etc/passwd represent human users. Some are system accounts (e.g., root, daemon, nobody) used by various system processes.</figcaption>
 </figure>
 
 **Which users are currently running processes?**
@@ -96,7 +96,7 @@ A kernel vulnerability is a security flaw in the kernel, the core part of an ope
 
 **Steps**
 
-#### Manual Vulnerability Search
+### Manual Vulnerability Search</br>
 
 A manual vulnerability search involves using various online resource to identify known vulnerabilities in a host. Below are the vulnerability I found, along with their sources.
 
