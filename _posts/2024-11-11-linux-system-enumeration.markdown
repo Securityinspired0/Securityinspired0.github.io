@@ -63,7 +63,7 @@ Use the following commands to gather user information:
 
 There are multiple questions to answer and these questions will help us gather information about the installed host.
 
-* **Do you have an administrative privileges?**
+**Do you have an administrative privileges?**
 <figure>
     <img src ="/assets/img/groups.png" alt="Screenshot showing the output of the groups command">
     <figcaption><b>sudo:</b> Grants administrative privileges, allowing the user to execute commands as the superuser or another user, as defined in the /etc/sudoers file.</figcaption>
@@ -78,7 +78,7 @@ There are multiple questions to answer and these questions will help us gather i
 **How many groups are on the system?**
 <img src ="/assets/img/group-count.png" alt="Screenshot showing the output of the group counts command">
 
-* **How many users are on the system?**
+**How many users are on the system?**
 <figure>
     <img src ="/assets/img/passwd.png" alt="Screenshot showing the output of the user counts command">
     <figcaption>Not all entries in /etc/passwd represent human users. Some are system accounts (e.g., root, daemon, nobody) used by various system processes.</figcaption>
@@ -96,7 +96,7 @@ A kernel vulnerability is a security flaw in the kernel, the core part of an ope
 
 **Steps**
 
-1. ### Manual Vulnerability Search
+#### Manual Vulnerability Search
 
 A manual vulnerability search involves using various online resource to identify known vulnerabilities in a host. Below are the vulnerability I found, along with their sources.
 
