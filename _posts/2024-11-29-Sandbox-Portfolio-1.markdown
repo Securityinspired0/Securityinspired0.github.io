@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Portfolio 02: Sandboxed Network Lab Report
+title: Portfolio 02 Sandboxed Network Lab Report
 date: 2024-11-11
 ---
 
