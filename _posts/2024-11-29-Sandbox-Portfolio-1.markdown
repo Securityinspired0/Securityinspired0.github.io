@@ -55,7 +55,7 @@ By default, when we access the Ghost server from the Ubuntu desktop, you should 
 
 * Demonstrated internet access through the Gateway-Router by resolving a public domain 
 
-<img src ="/assets/img/static.png">
+<img src ="/assets/img/cisco.png">
 
 #### Gateway-Router Functionality
 
