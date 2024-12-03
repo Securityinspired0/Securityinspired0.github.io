@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Portfolio 02 Sandboxed Network Lab Report
+title: PORTFOLIO 02 SANDBOX NETWORK LAB REPORT
 date: 2024-11-11
 ---
 
-## INTRODUCTION
+### INTRODUCTION
 
 This report documents the setup and functionaly of a sandboxed network I created using VitualBox. The network consisits of three virtual machines (VMs) connected accross two subnets. The tree VMs in this setup are:
 * Ubuntu Desktop
@@ -36,13 +36,14 @@ Ubuntu Desktop can communicate with the Web Server.
 Ubuntu Desktop can access the internet through the Gateway-Router.
 The Gateway-Router routes traffic between the two subnets (192.168.x.x and 192.168.xxx.x) and provides network address translation (NAT) for internet access.
 
-## IP Address Table
+### IP Address Table
 
-<img src ="/assets/img/network-diagram.png">
+<img src ="/assets/img/iptable.png">
 
-## VM Configuration and Functionality
+### VM Configuration and Functionality
 
-### Ubuntu Desktop Functionality 
+
+#### Ubuntu Desktop Functionality 
 
 * Successfully accessed the application server from the desktop using a browser.
 
@@ -56,7 +57,7 @@ By default, when we access the Ghost server from the Ubuntu desktop, you should 
 
 <img src ="/assets/img/static.png">
 
-### Gateway-Router Functionality
+#### Gateway-Router Functionality
 
 Enabled routing between Subnet 01 (192.168.x.x) and Subnet 02 (192.168.xxx.x).
 
@@ -79,25 +80,26 @@ Provided internet access to the ubuntu desktop and application server via the NA
     <figcaption>Application server logs showing requests from the desktop.</figcaption>
 </figure>
 
-## Gateway-Router Traffic Logging
+### Gateway-Router Traffic Logging
 
 To monitor network traffic, I configured logging on the Gateway-Router using tcpdump. The captured logs provided insight into forwarded packets between the subnets and requests to external networks. The following screenshot shows the captured logs:
 
 <img src ="/assets/img/tcpdump-log.png">
 
 
-## Lab Demonstration
+### Lab Demonstration
 
-### Screencast Link
+
+#### Screencast Link
 
 A video demonstration showcasing the sandboxed network's setup and functionality can be accessed [here.](https://roehamptonprod-my.sharepoint.com/:v:/r/personal/adesanyo2_roehampton_ac_uk/Documents/Sandbox.mp4?csf=1&web=1&e=U3V2na&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
-## Conclusion
+### Conclusion
 The sandboxed network is functional as designed, with the Ubuntu Desktop able to communicate with the Web Server and access the internet via the Gateway-Router. This setup demonstrates basic network functionality such as DNS resolution, web browsing, and routing between subnets. The Gateway-Router effectively handles the routing between the internal network and the internet, allowing all devices to communicate as expected.
 
 
-## References
+### References
 
 * [VirtualBox Documentation](https://www.virtualbox.org/wiki/Documentation)
 * [Ubuntu Official Site](https://help.ubuntu.com/community/CommunityHelpWiki)
