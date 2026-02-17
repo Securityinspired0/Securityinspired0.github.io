@@ -6,7 +6,7 @@ date: 2024-11-11
 
 ### INTRODUCTION
 
-This report documents the setup and functionaly of a sandboxed network I created using VitualBox. The network consisits of three virtual machines (VMs) connected accross two subnets. The tree VMs in this setup are:
+This report documents the setup and functionaly of a sandboxed network I created using VitualBox. The network consisits of three virtual machines (VMs) connected accross two subnets. The three VMs in this setup are:
 * Ubuntu Desktop
 * Gateway-Router
 * Ghost Application Server
